@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'CooperHewitt-book';
+	src: url("CooperHewitt-Book.otf");
+}
+
+.title {
+	margin: 50px;
+	font-family: Garamond;
+	font-weight: bolder;
+	line-height: 32px;
+	font-size: 16px;
+	letter-spacing: .1em;
+	cursor: default;
+	color: #252525;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	font-style: italic;
+}
+.caption {
+	color: #d3def6;
+	font-size: 12px;
+	font-family: CooperHewitt-book;
+	font-weight: normal;
+}
+a:hover {
+	color: aliceblue;
+	transition: all .3s ease;
+}
+
+.divide {
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	position: fixed;
+}
+
+.divide2 {
+	width: 60%;
+	float: right;
+	position: relative;
+}
+img:hover{
+	opacity: 1;
+	transition-delay: .3s;
+	transition: all 1s ease;
+}
+img {
+	margin: -3%;
+	cursor: pointer;
+	opacity: .5;
+}
+.squirrel
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+.squirrel.default
+{
+    display: block;
+}
