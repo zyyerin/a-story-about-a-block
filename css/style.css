@@ -5,9 +5,9 @@
 
 .title {
 	margin: 50px;
-	font-family: Garamond;
+	font-family: 'Adobe Garamond Pro';
 	font-weight: bolder;
-	line-height: 32px;
+	line-height: 28px;
 	font-size: 16px;
 	letter-spacing: .1em;
 	cursor: default;
@@ -52,6 +52,8 @@ img {
 	margin: -3%;
 	cursor: pointer;
 	opacity: .5;
+	transition: all 1s ease;
+
 }
 .squirrel
 {
