@@ -27,7 +27,7 @@ a{
 	font-weight: normal;
 }
 a:hover {
-	color: aliceblue;
+	color: #d3def6;
 	transition: all .3s ease;
 }
 
